@@ -14,8 +14,20 @@
 
 int main()
 {
-    Zombie* x = NULL;
-    x->newZombie("Apocalyptus");
-    x->randomChump("Broken");
-    delete x;
+    Zombie* zombies = NULL;
+    zombies = zombies->zombieHorde(4, "crew1");
+    delete[] zombies;
+    return 0;
 }
+
+
+// int main()
+// {
+//     Zombie* zombies = NULL;
+//     zombies = zombies->zombieHorde(-4, "crew1");
+//     zombies = zombies->zombieHorde(0, "crew1");
+//     zombies = zombies->zombieHorde(-23234, "crew1");
+//     zombies = zombies->zombieHorde(-402102002, "crew1");
+//     delete[] zombies;
+//     return 0;
+// }

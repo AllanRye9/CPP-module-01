@@ -10,9 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = moarBrainz
+NAME = violence
 CC = c++ -Wall -Wextra -Werror -std=c++98
-SRC =	src/Main.cpp src/zombieHorde.cpp src/Zombie.cpp
+SRC = src/Weapon.cpp src/HumanB.cpp src/main.cpp src/HumanA.cpp
 $(NAME): $(SRC)
 	$(CC) $(SRC) -o $(NAME)
 all: $(NAME)

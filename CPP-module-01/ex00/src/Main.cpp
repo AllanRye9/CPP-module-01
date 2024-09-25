@@ -16,6 +16,6 @@ int main()
 {
     Zombie* x = NULL;
     x->newZombie("Apocalyptus");
-    x->randomChump("Broken");
+    x->randomChump("Broken Walker");
     delete x;
 }

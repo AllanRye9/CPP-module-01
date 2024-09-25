@@ -10,9 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = moarBrainz
+NAME = brain
 CC = c++ -Wall -Wextra -Werror -std=c++98
-SRC =	src/Main.cpp src/zombieHorde.cpp src/Zombie.cpp
+SRC =	main.cpp
 $(NAME): $(SRC)
 	$(CC) $(SRC) -o $(NAME)
 all: $(NAME)

@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME = zombie
-CC = c++ -Wall -Wextra -Werror -std=c++98  -g3
+CC = c++ -Wall -Wextra -Werror -std=c++98
 SRC =	src/Main.cpp src/newZombie.cpp  src/randomChump.cpp src/Zombie.cpp
 $(NAME): $(SRC)
 	$(CC) $(SRC) -o $(NAME)

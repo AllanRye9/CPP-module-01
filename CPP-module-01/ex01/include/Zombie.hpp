@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <stdlib.h>
 
 typedef std::string str;
 
@@ -10,12 +11,13 @@ class Zombie
 {
     private:
         std::string name;
+        int N;
     public:
-        Zombie(str name);
+        Zombie();
         ~Zombie();
-        void announce( void );
-        Zombie* newZombie( std::string name );
-        void randomChump( std::string name );
+        Zombie* zombieHorde( int N, std::string name );
+        void announce( void ) const;
+        void setName(str name);
 };
 
 #endif
