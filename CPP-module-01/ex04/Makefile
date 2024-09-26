@@ -10,9 +10,9 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = violence
+NAME = copier
 CC = c++ -Wall -Wextra -Werror -std=c++98
-SRC = src/Weapon.cpp src/HumanB.cpp src/main.cpp src/HumanA.cpp
+SRC = main.cpp
 $(NAME): $(SRC)
 	$(CC) $(SRC) -o $(NAME)
 all: $(NAME)
