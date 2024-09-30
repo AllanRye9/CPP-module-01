@@ -1,9 +1,6 @@
-#ifndef ZOMBIE_H
-#define ZOMBIE_H
-
+#pragma once
 #include <iostream>
 #include <string>
-#include <stdlib.h>
 
 typedef std::string str;
 
@@ -19,5 +16,3 @@ class Zombie
         void announce( void ) const;
         void setName(str name);
 };
-
-#endif

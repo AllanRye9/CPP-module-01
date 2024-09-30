@@ -15,7 +15,7 @@
 int main()
 {
     Zombie* zombies = NULL;
-    zombies = zombies->zombieHorde(4, "crew1");
+    zombies = zombies->zombieHorde(3, "crew1");
     delete[] zombies;
     return 0;
 }

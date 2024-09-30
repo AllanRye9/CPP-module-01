@@ -2,8 +2,7 @@
 
 Zombie::Zombie(void)
 {
-    this->name = name;
-    std::cout << "Be careful ! The zombie " << name << " is in the house !" << std::endl;
+    std::cout << "Be careful ! The zombie " << this->name << " is in the house !" << std::endl;
 }
 
 Zombie::~Zombie(void)

@@ -19,3 +19,13 @@ int main()
     x->randomChump("Broken Walker");
     delete x;
 }
+
+// int main()
+// {
+//     Zombie* x = NULL;
+//     x->newZombie("#42");
+//     x->randomChump("Slayer***");
+//     x->randomChump("123");
+//     x->newZombie("#key");
+//     delete x;
+// }
